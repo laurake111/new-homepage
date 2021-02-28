@@ -1,0 +1,204 @@
+td.field {
+    height: 40px;
+    width: 40px;
+    /*display: inline-block;*/
+    /*padding: 0px;*/
+    border: 1px solid white;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 10px;
+}
+
+
+th {
+    background-color: violet;
+}
+
+.fields {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+/*#startBtn {*/
+/*    background: violet;*/
+/*    border-style: dotted solid;*/
+/*    height: 35px;*/
+/*    width: 100px;*/
+/*    margin-top: 45px;*/
+/*}*/
+/*#shipForm {*/
+/*    border:transparent;*/
+/*    background: violet;*/
+/*}*/
+h1 {
+    color: #4517A8;
+    font-weight: 600;
+    font-size: 3rem;
+    opacity: 0.8;
+}
+
+h2,
+p {
+    color: #4517A8;
+    font-weight: 500;
+    opacity: 0.8;
+    font-size: 1rem;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    min-height: 100vh;
+    background: linear-gradient(to right top, #D78BFF, #739EFB);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: 100%;
+}
+
+.gamefield {
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+    display: inline-block;
+
+}
+
+img {
+    display: inline-block;
+    width: 101%;
+    height: 101%;
+}
+
+@media only screen and (max-width: 600px) {
+    #fields {
+        flex-direction: column;
+    }
+
+    #options {
+        flex-direction: column;
+        justify-content: center;
+
+    }
+
+    #startBtn {
+        align-self: center;
+    }
+
+
+    td.field {
+        height: 30px;
+        width: 30px;
+        padding: 0px;
+        border: 1px solid black;
+
+    }
+
+    img {
+        width: 29px;
+    }
+
+
+    header {
+        text-align: center;
+    }
+
+    p {
+        text-align: center;
+    }
+
+
+}
+
+.circle1,
+.circle2 {
+    background: white;
+    background: linear-gradient(
+            to right bottom,
+            rgba(255, 255, 255, 0.8),
+            rgba(255, 255, 255, 0.3)
+    );
+    height: 20rem;
+    width: 20rem;
+    position: absolute;
+    border-radius: 50%;
+}
+
+.circle1 {
+    top: 5%;
+    right: 0%;
+}
+
+.circle2 {
+    bottom: 5%;
+    left: 2%;
+}
+
+.glass {
+    background: white;
+    min-height: 100vh;
+    min-width: 100vh;
+    background: linear-gradient(
+            to right bottom,
+            rgba(255, 255, 255, 0.7),
+            rgba(255, 255, 255, 0.3)
+    );
+    border-radius: 2rem;
+    backdrop-filter: blur(2rem);
+    display: flex;
+}
+
+.game {
+    background: linear-gradient(
+            to right bottom,
+            rgba(255, 255, 255, 0.7),
+            rgba(255, 255, 255, 0.3)
+    );
+    background: white;
+    background: linear-gradient(
+            to right bottom,
+            rgba(255, 255, 255, 0.7),
+            rgba(255, 255, 255, 0.3)
+    );
+    border-radius: 2rem;
+    padding: 40px;
+    margin: 20px;
+    backdrop-filter: blur(2rem);
+    min-width: 700px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+
+}
+
+select {
+    border-radius: 1rem;
+    background-color: #D78BFF;
+    color: white;
+    display: block;
+    padding: 5px 10px;
+    text-decoration: none;
+    font-weight: 500;
+    opacity: 0.8;
+    border: transparent;
+    outline: none;
+}
+
+input {
+    border-radius: 1rem;
+    background-color: #D78BFF;
+    color: white;
+    display: block;
+    padding: 5px 10px;
+    text-decoration: none;
+    font-weight: 500;
+    border: transparent;
+    opacity: 0.8;
+    outline: none;
+
+}
